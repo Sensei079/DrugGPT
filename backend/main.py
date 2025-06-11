@@ -23,7 +23,11 @@ app = FastAPI(
 # CORS configuration
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=[FRONTEND_URL, "http://localhost:5173"],
+    allow_origins=[
+        FRONTEND_URL,
+        "http://localhost:5173",
+        "https://druggpt.netlify.app"  # Add your Netlify URL here
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],

@@ -1,6 +1,6 @@
 import type { DrugQuery, DrugResponse } from '../types/drug';
 
-const API_URL = 'http://localhost:8000';
+const API_URL = import.meta.env.VITE_API_URL || 'https://drug-interaction-api.onrender.com';
 
 export const checkDrugInteractions = async (query: DrugQuery): Promise<DrugResponse> => {
     try {
