@@ -1,6 +1,6 @@
 # DrugGPT - Drug Interaction Checker
 
-A web application that helps users check drug interactions and side effects using FDA data and AI-powered analysis.
+A web application that helps users check drug interactions and side effects using FDA data.
 
 ## Features
 
@@ -16,27 +16,12 @@ A web application that helps users check drug interactions and side effects usin
 - FastAPI
 - Python 3.9+
 - FDA API Integration
-- OpenAI Integration
 
 ### Frontend
-- Vue.js
+- React
 - TypeScript
 - Vite
 - TailwindCSS
-
-## Project Structure
-
-```
-.
-├── backend/           # FastAPI backend
-│   ├── main.py       # Main application file
-│   ├── fda_api.py    # FDA API integration
-│   └── requirements.txt
-└── frontend/         # Vue.js frontend
-    ├── src/          # Source files
-    ├── public/       # Static files
-    └── package.json
-```
 
 ## Setup Instructions
 
@@ -80,16 +65,6 @@ A web application that helps users check drug interactions and side effects usin
    npm run dev
    ```
 
-## Environment Variables
-
-### Backend
-- `ENVIRONMENT`: development/production
-- `FRONTEND_URL`: Frontend application URL
-- `OPENAI_API_KEY`: Your OpenAI API key
-
-### Frontend
-- `VITE_API_URL`: Backend API URL
-
 ## Testing
 
 ### Backend Tests
@@ -120,4 +95,4 @@ MIT License
 2. Create your feature branch
 3. Commit your changes
 4. Push to the branch
-5. Create a new Pull Request 
+5. Create a new Pull Request
