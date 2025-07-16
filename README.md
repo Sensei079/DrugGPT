@@ -79,12 +79,6 @@ cd frontend
 npm run test
 ```
 
-## Deployment
-
-The application is configured for deployment on:
-- Backend: Render
-- Frontend: Netlify
-
 ## License
 
 MIT License
